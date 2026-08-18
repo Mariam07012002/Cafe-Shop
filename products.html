@@ -1,0 +1,1299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/global.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" />
+  <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon" />
+  <title>Chil</title>
+</head>
+
+<body>
+  <header>
+    <div class="row justify_between align_center">
+      <div class="col logo">
+        <div class="wrapper">
+          <picture><img src="img/logo.jpg" alt="" /></picture>
+        </div>
+      </div>
+      <div class="col search w_40">
+        <div class="wrapper">
+          <label class="flex align_center">
+            <input type="text" class="w_100" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </label>
+        </div>
+      </div>
+      <div class="col menu">
+        <div class="wrapper">
+          <nav>
+            <ul class="flex gap_30">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./products.html">Menu</a></li>
+              <li><a href="#about_us">About us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="product_menu_page">
+    <section id="filter">
+      <div class="row">
+        <div class="col">
+          <div class="wrapper flex-row align_center gap_20">
+            <h4 class="search_title">Latte</h4>
+            <p>
+              <span class="search_count">3</span>
+              products
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row filters flex justify_between">
+        <div class="col filter_list">
+          <div class="wrapper flex-row gap_20">
+            <div class="filter">
+              <div class="filter_header flex align_center gap_20 justify_center">
+                <div class="desc">Our Menu</div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="opened_filter flex flex-col gap_20">
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="sort" value="coffee">
+                  <div class="radio_stayle"></div>
+                  Coffee
+                </label>
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="sort" value="alcohol">
+                  <div class="radio_stayle"></div>
+                  Alcohol drinks
+                </label>
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="sort" value="ice">
+                  <div class="radio_stayle"></div>
+                  Ice Coffee
+                </label>
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="sort" value="hot">
+                  <div class="radio_stayle"></div>
+                  Hot Coffee
+                </label>
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="sort" value="cappas">
+                  <div class="radio_stayle"></div>
+                  Cappas
+                </label>
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="sort" value="soft">
+                  <div class="radio_stayle"></div>
+                  Soft drinks
+                </label>
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="sort" value="dessert">
+                  <div class="radio_stayle"></div>
+                  Desserts
+                </label>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="filter_header flex align_center gap_20 justify_center">
+                <div class="desc">Our Coffee</div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="opened_filter flex flex-col gap_20">
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="coffee" value="hot">
+                  <div class="radio_stayle"></div>
+                    Hot Coffee
+                </label>
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="coffee" value="ice">
+                  <div class="radio_stayle"></div>
+                  Ice Coffee
+                </label>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="filter_header flex align_center gap_20 justify_center">
+                <div class="desc">Our Desserts</div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="opened_filter flex flex-col gap_20">
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="dessert" value="cappas">
+                  <div class="radio_stayle"></div>
+                    Cappas
+                </label>
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="dessert" value="dessert">
+                  <div class="radio_stayle"></div>
+                  Desserts
+                </label>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="filter_header flex align_center gap_20 justify_center">
+                <div class="desc">Our Drinks</div>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="opened_filter flex flex-col gap_20">
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="drinks" value="ice">
+                  <div class="radio_stayle"></div>
+                  Ice Coffee
+                </label>
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="drinks" value="hot">
+                  <div class="radio_stayle"></div>
+                  Hot Coffee
+                </label>
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="drinks" value="alcohol">
+                  <div class="radio_stayle"></div>
+                  Alcohol drinks
+                </label>
+                <label class="sort flex align_center gap_10">
+                  <input type="radio" name="drinks" value="soft">
+                  <div class="radio_stayle"></div>
+                  Soft drinks
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="hot">
+      <div class="row flex flex_wrap bg_dark">
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Hot Latte.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Latte</div>
+                <div class="category mb_15">Hot Coffee</div>
+                <div class="desc mb_10">
+                  Mild espresso-based coffee with coconut milk
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_dark" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Americano.jpg" alt="" class="w_100" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Americano</div>
+                <div class="category mb_15">Hot Coffee</div>
+                <div class="desc mb_10">
+                  Strong espresso-based coffee with added water
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_dark" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Hot Cappuccino.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Cappuccino</div>
+                <div class="category mb_15">Hot Coffee</div>
+                <div class="desc mb_10">
+                  Espresso-based strong milk coffee
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_dark" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Hot Espresso.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Espresso</div>
+                <div class="category mb_15">Hot Coffee</div>
+                <div class="desc mb_10">Italian strong pressed coffee.</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_dark" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Arabica .jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Arabica</div>
+                <div class="category mb_15">Hot Coffee</div>
+                <div class="desc mb_10">
+                  Traditional Middle Eastern coffee with fragrant cardamom and
+                  a smooth, bold finish
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_dark" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Milk chocolate.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Milk chocolate</div>
+                <div class="category mb_15">Hot Coffee</div>
+                <div class="desc mb_10">
+                  Warm, creamy chocolate drink with a rich cocoa flavor
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_dark" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ice">
+      <div class="row flex flex_wrap bg_light">
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Iced Latte.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Latte</div>
+                <div class="category mb_15">Ice Coffee</div>
+                <div class="desc mb_10">
+                  Mild espresso-based coffee with coconut milk
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Iced Vanilla Latte.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Vanilla Latte</div>
+                <div class="category mb_15">Ice Coffee</div>
+                <div class="desc mb_10">
+                  Smooth espresso blended with coconut milk and sweet vanilla
+                  syrup
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Iced Creamy Coffee.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Creamy Coffee</div>
+                <div class="category mb_15">Ice Coffee</div>
+                <div class="desc mb_10">
+                  Instant cream coffee, medium sweetness.
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Iced Fantasy.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Fantasy</div>
+                <div class="category mb_15">Ice Coffee</div>
+                <div class="desc mb_10">
+                  Instant sweet milk coffee with added Kinder and Caramel
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Italian Iced Coffee.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Italian Coffee</div>
+                <div class="category mb_15">Ice Coffee</div>
+                <div class="desc mb_10">
+                  Bold espresso poured over ice with a rich, refreshing
+                  finish.
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Iced Caramel Macchiato.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Caramel Macchiato</div>
+                <div class="category mb_15">Ice Coffee</div>
+                <div class="desc mb_10">
+                  Espresso vanilla syrup milk caramel sauce
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Vanilla Iced Coffee.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Vanilla Coffee</div>
+                <div class="category mb_15">Ice Coffee</div>
+                <div class="desc mb_10">
+                  Classic coffee with creamy vanilla notes and a smooth finish
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">600 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Dolce Gusto.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Dolce Gusto</div>
+                <div class="category mb_15">Ice Coffee</div>
+                <div class="desc mb_10">
+                  Indonesian coffee with medium sweetness with ice cream.
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">600 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Espresso Tonic.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Espresso Tonic</div>
+                <div class="category mb_15">Ice Coffee</div>
+                <div class="desc mb_10">
+                  Bold espresso poured over sparkling tonic water for a
+                  refreshing, vibrant taste
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">1200 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="alcohol">
+      <div class="row flex flex_wrap bg_dark">
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Sole di Yerevan.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Sole di Yerevan</div>
+                <div class="category mb_15">Alcohol Drink</div>
+                <div class="desc mb_10">
+                  A signature alcoholic drink with rich aromas and a bright,
+                  elegant taste
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">2300 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Tropical Sunset.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Tropical Sunset</div>
+                <div class="category mb_15">Alcohol Drink</div>
+                <div class="desc mb_10">
+                  A vibrant tropical cocktail with exotic fruit flavors and a
+                  smooth, refreshing finish
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3500 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Lavander  tonic.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Lavander Tonic</div>
+                <div class="category mb_15">Alcohol Drink</div>
+                <div class="desc mb_10">
+                  A sparkling and refreshing drink with aromatic lavender and
+                  a crisp finish
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">2500 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Notte d'amore.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Notte d'amore</div>
+                <div class="category mb_15">Alcohol Drink</div>
+                <div class="desc mb_10">
+                  A captivating cocktail with a perfect harmony of aroma,
+                  taste, and sophistication
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3500 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Cherry Lime Margarita.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Cherry Lime Margarita</div>
+                <div class="category mb_15">Alcohol Drink</div>
+                <div class="desc mb_10">Sweet cherry notes balanced with citrus lime for a bright and flavorful cocktail
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3800 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/the legendary.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">The legendary</div>
+                <div class="category mb_15">Alcohol Drink</div>
+                <div class="desc mb_10">A sophisticated cocktail with balanced aromas and a luxurious taste</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">4500 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Summer coctail.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Summer coctail</div>
+                <div class="category mb_15">Alcohol Drink</div>
+                <div class="desc mb_10">A vibrant mix of seasonal flavors with a smooth and refreshing finish</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3500 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Italian love.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Italian love</div>
+                <div class="category mb_15">Alcohol Drink</div>
+                <div class="desc mb_10">A romantic signature cocktail with balanced flavors and a luxurious taste</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">4000 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Classic Whiskey Sour Cocktail.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Smooth whiskey</div>
+                <div class="category mb_15">Alcohol Drink</div>
+                <div class="desc mb_10">Smooth whiskey balanced with zesty lemon for a refreshing and elegant taste
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">4000 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cappas">
+      <div class="row flex flex_wrap bg_dark">
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Coppa Kinder.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Coppa Kinder</div>
+                <div class="category mb_15">Coppa</div>
+                <div class="desc mb_10">
+                  Creamy dessert layered with chocolate, milk cream, and a
+                  sweet Kinder-inspired flavor.
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">2300 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Coppa Salted Caramel.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Coppa Salted Caramel</div>
+                <div class="category mb_15">Coppa</div>
+                <div class="desc mb_10">
+                  Creamy dessert layered with smooth caramel and a touch of
+                  sea salt
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">2300 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Coppa Oreo.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Coppa Oreo</div>
+                <div class="category mb_15">Coppa</div>
+                <div class="desc mb_10">
+                  A rich and creamy dessert with crunchy Oreo pieces and
+                  chocolate notes
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">2100 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Coppa Fragola.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Coppa Fragola</div>
+                <div class="category mb_15">Coppa</div>
+                <div class="desc mb_10">
+                  Creamy strawberry dessert with fresh fruit flavor and a
+                  smooth, sweet finish
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">1900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Coppa Cheesecake.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Coppa Cheesecake</div>
+                <div class="category mb_15">Coppa</div>
+                <div class="desc mb_10">
+                  Creamy cheesecake dessert with a smooth texture and rich,
+                  classic flavor.
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">2100 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Coppa Corn.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Coppa Corn</div>
+                <div class="category mb_15">Coppa</div>
+                <div class="desc mb_10">
+                  A unique creamy dessert with the natural sweetness of corn
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">2300 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="soft">
+      <div class="row flex flex_wrap bg_light">
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Blue Moon.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Blue Moon</div>
+                <div class="category mb_15">Soft Drink</div>
+                <div class="desc mb_10">Tea made with syrup of exotic and citrus fruits with the addition of lemon.
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">900 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Mojito.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Mojito</div>
+                <div class="category mb_15">Soft Drink</div>
+                <div class="desc mb_10">A fresh blend of mint, lime, and rum with a crisp and refreshing taste.</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3000 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Strawberry Mojito.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Strawberry Mojito</div>
+                <div class="category mb_15">Soft Drink</div>
+                <div class="desc mb_10">A vibrant summer cocktail with fresh fruit flavors and refreshing bubbles</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3500 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Ice Tea Peach.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Peach Tea</div>
+                <div class="category mb_15">Soft Drink</div>
+                <div class="desc mb_10">A cool and fruity iced tea with a delicate peach aroma</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">2200 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Iced Raspberry Passion Tea Lemonade.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Raspberry Passion Lemonade</div>
+                <div class="category mb_15">Soft Drink</div>
+                <div class="desc mb_10">A colorful and refreshing lemonade with a perfect balance of sweet and tangy
+                  flavors</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">2400 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_dark">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Dragonfruit Mojito.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Dragonfruit Mojito</div>
+                <div class="category mb_15">Soft Drink</div>
+                <div class="desc mb_10">A colorful and refreshing mojito with tropical sweetness and a crisp finish
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3500 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="dessert">
+      <div class="row flex flex_wrap bg_dark">
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Lava Cake.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Lava Cake</div>
+                <div class="category mb_15">Dessert</div>
+                <div class="desc mb_10">A decadent chocolate cake with a soft, flowing center and intense cocoa flavor
+                </div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3500 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Strawberry cheesecake.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Strawberry Cheesecake</div>
+                <div class="category mb_15">Dessert</div>
+                <div class="desc mb_10">A rich and creamy dessert with a perfect balance of cheesecake and fresh
+                  strawberry taste</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3500 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Truffle.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Truffle</div>
+                <div class="category mb_15">Dessert</div>
+                <div class="desc mb_10">Elegant chocolate indulgence with a refined taste and melt-in-your-mouth
+                  experience</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3000 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Brownie.jpg" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Brownie</div>
+                <div class="category mb_15">Dessert</div>
+                <div class="desc mb_10">A decadent chocolate dessert with intense cocoa notes and a smooth finish</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3200 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Red velvet.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Red Velvet</div>
+                <div class="category mb_15">Dessert</div>
+                <div class="desc mb_10">Classic red velvet cake with delicate cocoa notes and silky cream frosting</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3500 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col w_33">
+          <div class="wrapper bg_light">
+            <div class="top">
+              <picture class="mb_20">
+                <img src="./img/Carrot cake.png" alt="" />
+              </picture>
+              <div class="info">
+                <div class="title_3 mb_15">Carrot Cake</div>
+                <div class="category mb_15">Dessert</div>
+                <div class="desc mb_10">A comforting dessert with a perfectly balanced flavor and velvety texture</div>
+                <!-- <div class="rating"></div> -->
+                <div class="prices">
+                  <div class="price">3000 AMD</div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom flex gap_20 justify_between">
+              <a class="btn" href="#">Buy Now</a>
+              <a class="btn btn_light" href="#">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about_us">
+      <div class="row justify_center align_center text_center mb_50">
+        <div class="col w_50">
+          <div class="wrapper">
+            <h2 class="mb_40">About Our Cafe</h2>
+            <p class="mb_40">
+              At our cafe, coffee is more than just a drink it's an
+              experience. We carefully select the finest beans, craft every
+              cup with passion, and create a welcoming space where friends,
+              families, and coffee lovers can relax and enjoy
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="row justify_center align_center text_center mb_15 bg_dark">
+        <div class="col">
+          <div class="wrapper">
+            <h2 class="mb_40">Contact Us</h2>
+            <div class="flex justify_between gap_30">
+              <form action="#" method="post">
+                <label for="your_name" class="mb_15">
+                  Name:
+                  <input type="text" placeholder="Enter your name" name="your_name" id="your_name" />
+                </label>
+                <label for="email" class="mb_15">
+                  Email:
+                  <input type="email" placeholder="Enter your email" name="email" id="email" />
+                </label>
+                <label class="mb_15">
+                  Registr Day:
+                  <input type="date" />
+                </label>
+                <label for="message" class="mb_15">
+                  Message:
+                  <textarea placeholder="Write your message" id="message" name="message"></textarea>
+                </label>
+                <button class="btn w_100 btn_light title_4" value="Send Message">
+                  Send Message
+                </button>
+              </form>
+              <picture>
+                <img src="https://i.pinimg.com/1200x/51/eb/08/51eb08cca0f061a8e0b282bf71fdecf4.jpg" alt="" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="row bg_light">
+      <div class="col w_33">
+        <div class="wrapper">
+          <div class="logo mb_20">
+            <picture>
+              <img src="./img/logo.jpg" alt="" />
+            </picture>
+          </div>
+          <p class="mb_20">
+            Fresh coffee, delicious desserts, and a cozy atmosphere. Enjoy
+            every moment with us.
+          </p>
+          <ul class="flex gap_10">
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-facebook" style="color: rgb(68, 52, 52)"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-instagram" style="color: rgb(68, 52, 52)"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-tiktok" style="color: rgb(68, 52, 52)"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col w_33">
+        <div class="wrapper">
+          <h3 class="mb_20">Quick Links</h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./products.html">Menu</a></li>
+            <li><a href="#about_us">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col w_33">
+        <div class="wrapper">
+          <h3 class="mb_20">Contact</h3>
+          <ul class="mb_10">
+            <li>
+              <a href="tel:+374784552">+374 78 45 52</a>
+            </li>
+            <li>
+              <a href="mailto:cafeChil@gmail.com">cafeChil@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

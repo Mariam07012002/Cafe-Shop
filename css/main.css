@@ -1,0 +1,456 @@
+body {
+  font-family: cursive;
+  background-color: #5c4742;
+  color: white;
+}
+
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.col {
+  padding: 10px;
+}
+
+.bg_dark {
+  background-color: #5a2a27;
+  color: black;
+}
+
+.bg_light {
+  background-color: #c4bbaf;
+  color: #5a2a27;
+}
+
+.bg_primery {
+  background-color: #8d5b4c;
+  color: white;
+}
+
+.bg_secondary {
+  background-color: #c4bbaf;
+  color: black;
+}
+
+.btn {
+  background-color: #a5978b;
+  color: #5a2a27;
+  border-color: transparent;
+}
+
+.btn:hover {
+  background-color: #8d5b4c;
+  color: #a5978b;
+}
+
+.btn_dark {
+  background-color: #5a2a27;
+  color: white;
+  border-color: transparent;
+}
+
+.btn_dark:hover {
+  background-color: #5c4742;
+  color: white;
+}
+
+.btn_light {
+  background-color: #5c4742;
+  color: white;
+  border-color: transparent;
+}
+
+.btn_light:hover {
+  background: #c4bbaf;
+  color: #5a2a27;
+}
+
+.gap_5 {
+  gap: 5px;
+}
+
+.gap_10 {
+  gap: 10px;
+}
+
+.gap_15 {
+  gap: 15px;
+}
+
+.gap_20 {
+  gap: 20px;
+}
+
+.gap_30 {
+  gap: 30px;
+}
+
+.gap_40 {
+  gap: 40px;
+}
+
+.gap_50 {
+  gap: 50px;
+}
+
+.mb_5 {
+  margin-bottom: 5px;
+}
+
+.mb_10 {
+  margin-bottom: 10px;
+}
+
+.mb_15 {
+  margin-bottom: 15px;
+}
+
+.mb_20 {
+  margin-bottom: 20px;
+}
+
+.mb_30 {
+  margin-bottom: 30px;
+}
+
+.mb_40 {
+  margin-bottom: 40px;
+}
+
+.mb_50 {
+  margin-bottom: 50px;
+}
+.search input {
+  background-color: transparent;
+  border: none;
+}
+
+.search label {
+  background-color: #8d5b4c;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h1,
+.title_1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+h2,
+.title_2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3,
+.title_3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h4,
+.title_4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logo img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+#hero {
+  background-image: url("https://i.pinimg.com/736x/11/60/ef/1160ef0196c59bb71a8d135340f62fb7.jpg");
+  background-size: cover;
+}
+
+#hero .row {
+  min-height: 600px;
+  background-color: #5a2a2756;
+  color: white;
+}
+
+#products .info,
+#products .more {
+  padding: 15px;
+}
+
+#products .wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow:
+    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#products img {
+  height: 600px;
+  width: 600px;
+  object-fit: cover;
+  transition: all 0.3s linear;
+}
+
+#products .title_4 {
+  line-height: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+#products .more .btn {
+  border-color: #5a2a27;
+}
+
+#hot,
+#ice,
+#alcoholic,
+#cappas,
+#soft,
+#dessert {
+  padding: 70px 0;
+  margin-bottom: 100px;
+}
+
+#about_us {
+  background-image: url("https://i.pinimg.com/736x/0f/08/77/0f08773ea4f2eac49b728b32ae8c80e9.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#about_us .row {
+  color: black;
+}
+
+#contact .wrapper {
+  padding: 20px;
+  margin-bottom: 100px;
+  border-radius: 25px;
+  border: 1px solid transparent;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#contact h2 {
+  color: white;
+}
+
+#contact img {
+  width: 300px;
+  border-radius: 25px;
+}
+
+#hot .category,
+#ice .category,
+#alcohol .category,
+#cappas .category,
+#soft .category,
+#dessert .category {
+  padding: 3px;
+  background-color: rgb(226, 224, 224);
+  color: rgb(74, 64, 64);
+  display: inline-block;
+  border-radius: 7px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+#hot .info,
+#hot .bottom {
+  padding: 20px;
+}
+
+#ice .info,
+#ice .bottom {
+  padding: 20px;
+}
+
+#alcohol .info,
+#alcohol .bottom {
+  padding: 20px;
+}
+
+#cappas .info,
+#cappas .bottom {
+  padding: 20px;
+}
+
+#soft .info,
+#soft .bottom {
+  padding: 20px;
+}
+
+#dessert .info,
+#dessert .bottom {
+  padding: 20px;
+}
+
+#hot .bottom,
+#ice .bottom,
+#alcohol .bottom,
+#cappas .bottom,
+#soft .bottom,
+#dessert .bottom {
+  padding-top: 0;
+}
+
+#hot .wrapper,
+#ice .wrapper,
+#cappas .wrapper,
+#soft .wrapper,
+#alcohol .wrapper,
+#dessert .wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px #423434;
+}
+
+#hot picture,
+#ice picture,
+#cappas picture,
+#soft picture,
+#alcohol picture,
+#dessert picture {
+  height: 300px;
+  overflow: hidden;
+}
+
+#hot img,
+#ice img,
+#cappas img,
+#soft img,
+#alcohol img,
+#dessert img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#hot .title_3,
+#ice .title_3,
+#cappas .title_3,
+#soft .title_3,
+#alcohol .title_3,
+#dessert .title_3 {
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  color: #8d5b4c;
+}
+
+/* .reting {
+  width: 100px;
+  height: 20px;
+  background-image: linear-gradient(to right, red 67%,  rgb(214, 214, 214) 67%);
+  mask-image: url('https://cdn-icons-png.flaticon.com/512/118/118669.png');
+  mask-size: 20px;
+} */
+
+#ice .title_3,
+#soft .title_3 {
+  color: #c4bbaf;
+}
+
+#ice .desc,
+#soft .desc {
+  color: white;
+}
+
+#ice .price,
+#soft .price {
+  color: whitesmoke;
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  top: 0;
+}
+
+#product_menu_page section {
+  padding-top: 90px;
+}
+
+#filter {
+  position: sticky;
+  top: 0;
+  z-index: 776;
+}
+
+.filter {
+  position: relative;
+}
+
+.filter .opened_filter {
+  display: none;
+  position: absolute;
+  padding: 20px;
+  padding-top: 40px;
+  z-index: 1;
+  width: 200%;
+  background-color: #5a2a2763;
+  backdrop-filter: blur(5px);
+}
+
+.filter:hover .opened_filter {
+  display: flex;
+}
+
+.filter_header {
+  padding: 5px;
+  background-color: #8d5b4c;
+  border-radius: 7px;
+  font-size: 14px;
+  width: 120%;
+}
+
+.filter .opened_filter input {
+  display: none;
+}
+
+.filter .opened_filter .radio_stayle {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 3px solid #191a23;
+  padding: 3px;
+}
+
+.filter .opened_filter .radio_stayle::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  background-color: #191a23;
+  transition: all 0.3s linear;
+}
+
+.filter .opened_filter input:checked + .radio_stayle::after {
+  width: 100%;
+}
+
+.filter_list .wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
