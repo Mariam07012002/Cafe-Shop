@@ -390,7 +390,7 @@ header {
 }
 
 #filter {
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 776;
 }
@@ -453,4 +453,14 @@ header {
   flex-direction: row;
   align-items: center;
   gap: 50px;
+}
+
+footer .mobile-menu {
+  display: none;
+  background-color: #5a2a27;
+  width: 100%;
+}
+
+.mobile-menu i {
+  font-size: 32px;
 }
